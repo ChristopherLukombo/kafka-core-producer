@@ -1,0 +1,7 @@
+spring:
+  kafka:
+    producer:
+      batch-size: 10
+      client-id: my-id
+  jackson:
+    date-format: yyyy-MM-dd
